@@ -28,10 +28,11 @@ OUTPUT REQUIREMENTS:
 - Be neutral and factual
 - Do NOT quote the entire conversation
 - Do NOT add explanations beyond the answer
+- Provide a citation (refer to example) of the part of the conversation referred truncate it to a maximum of 8 words
 
 EXAMPLES:
 Input: What concerns did the client raise?
-Output: {"response": "High costs"}
+Output: {"response": "High costs", "citation":"Budget-wise, they said "}
 
 Input: Who is developing the website backend?
-Output: {"response": "The conversation does not provide this information."}
+Output: {"response": "The conversation does not provide this information.", "citation": "none"}
