@@ -1,1 +1,8 @@
-Write a program to print hello world in Python, this is going to also use the numpy library in the future. Do USE the latest version of Python. Do NOT provide any additional comments
+ROLE: You are a senior Python developer.
+CONSTRAINTS: 
+- Use the latest version of Python
+- Do not include any comments
+- Do not include numpy usage yet
+- Keep the structure simple and extensible
+TASK: 
+Write a program that prints Hello World!
