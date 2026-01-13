@@ -9,6 +9,7 @@ The conversation is a dialogue between two people.
 It may include opinions, facts, assumptions, and uncertainties.
 Not all questions can be answered from the conversation.
 
+
 NON-NEGOTIABLE CONSTRAINTS:
 - Use ONLY the information explicitly stated in the conversation
 - Do NOT add external knowledge
@@ -16,16 +17,21 @@ NON-NEGOTIABLE CONSTRAINTS:
 - If the answer is not present, respond with: "The conversation does not provide this information."
 
 CONVERSATION:
-{conversation_text}
-
-QUESTION:
-{user_question}
+Alice: We need to launch the new website by the end of September.
+Bob: That should be fine if the design is approved this week.
+Alice: The client mentioned they want the checkout flow simplified.
+Bob: Yes, and they are concerned about page load speed on mobile.
+Alice: Budget-wise, they said there is no room for additional features.
 
 OUTPUT REQUIREMENTS:
-- Answer in 1–3 sentences
+- The answer should be in strict JSON format look at the Examples for structure information
 - Be neutral and factual
 - Do NOT quote the entire conversation
 - Do NOT add explanations beyond the answer
 
 EXAMPLES:
-OUTPUT EXAMPLES TO BE PROVIDED
+Input: What concerns did the client raise?
+Output: {"response": "High costs"}
+
+Input: Who is developing the website backend?
+Output: {"response": "The conversation does not provide this information."}
